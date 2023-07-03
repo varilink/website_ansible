@@ -6,21 +6,3 @@ services:
 
     volumes:
       - ./wordpress/gimp/:/gimp
-
-  npm:
-
-    image: varilink/tools/npm
-
-    volumes:
-      - ./wordpress:/home/npm
-
-  sass:
-
-    image: varilink/tools/npm
-
-    entrypoint: /node_modules/.bin/sass
-
-    volumes:
-      - ./wordpress/node_modules:/node_modules
-      - ./wordpress/theme/assets/scss:/scss
-      - ./wordpress/theme/assets/css:/css
