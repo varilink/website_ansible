@@ -1,0 +1,6 @@
+# Backup folder, the contents of which are used in restore operations.
+/backup
+# Any Ansible playbook retry files.
+/*.retry
+# Private Ansible variable files.
+private.yml
