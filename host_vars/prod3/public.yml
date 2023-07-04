@@ -1,0 +1,5 @@
+wordpress_sites:
+
+  - subdomain: www
+    version: "6.2.2"
+    reverse_proxy_pass_port: 8081

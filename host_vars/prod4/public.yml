@@ -1,0 +1,14 @@
+wordpress_sites:
+
+  - subdomain: preprod
+    version: "6.2.2"
+    themes:
+      - src: wordpress/theme/
+        dest: wp-bootstrap-starter-child/
+        rsync_opts:
+          - "--exclude=/node_modules/"
+          - "--exclude=/package-lock.json"
+          - "--exclude=/package.json"
+          - "--exclude=/assets/scss/"
+          - "--delete-excluded"
+    reverse_proxy_pass_port: 8083

@@ -1,0 +1,4 @@
+wordpress_sites:
+
+  - subdomain: dev
+    reverse_proxy_pass_port: 8081
