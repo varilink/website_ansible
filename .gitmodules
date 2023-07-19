@@ -10,3 +10,6 @@
 [submodule "tools/gimp"]
 	path = tools/gimp
 	url = git@github.com:varilink/tools-gimp.git
+[submodule "playbooks"]
+	path = playbooks
+	url = git@github.com:varilink/libraries-ansible_playbooks.git
