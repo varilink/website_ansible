@@ -3,7 +3,7 @@
 	url = git@github.com:varilink/website-wordpress.git
 [submodule "roles"]
 	path = roles
-	url = git@github.com:varilink/libraries-ansible.git
+	url = git@github.com:varilink/libraries-ansible_roles.git
 [submodule "tools/npm"]
 	path = tools/npm
 	url = git@github.com:varilink/tools-npm.git
