@@ -1,15 +1,19 @@
-[submodule "wordpress"]
-	path = wordpress
-	url = git@github.com:varilink/website-wordpress.git
-[submodule "roles"]
-	path = roles
-	url = git@github.com:varilink/libraries-ansible_roles.git
-[submodule "tools/npm"]
-	path = tools/npm
-	url = git@github.com:varilink/tools-npm.git
-[submodule "tools/gimp"]
-	path = tools/gimp
-	url = git@github.com:varilink/tools-gimp.git
 [submodule "playbooks"]
 	path = playbooks
-	url = git@github.com:varilink/libraries-ansible_playbooks.git
+	url = git@github.com:varilink/libraries_ansible-playbooks.git
+
+[submodule "roles"]
+	path = roles
+	url = git@github.com:varilink/libraries_ansible-roles.git
+
+[submodule "tools/gimp"]
+	path = tools/gimp
+	url = git@github.com:varilink/tools_gimp.git
+
+[submodule "tools/npm"]
+	path = tools/npm
+	url = git@github.com:varilink/tools_npm.git
+
+[submodule "wordpress"]
+	path = wordpress
+	url = git@github.com:varilink/website_wordpress.git
