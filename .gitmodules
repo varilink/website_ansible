@@ -14,6 +14,10 @@
 	path = tools/npm
 	url = git@github.com:varilink/tools_npm.git
 
+[submodule "tools/wordpress-restore"]
+	path = tools/wordpress-restore
+	url = git@github.com:varilink/tools_wordpress-restore.git
+
 [submodule "wordpress"]
 	path = wordpress
 	url = git@github.com:varilink/website_wordpress.git
