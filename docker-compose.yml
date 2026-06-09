@@ -1,9 +1,16 @@
-version: "3.6"
+# ------------------------------------------------------------------------------
+# docker-compose.yml
+# ------------------------------------------------------------------------------
+
+# Configuration of Docker Compose services used as tools by this project
+# repository.
+
+---
 
 services:
 
   gimp:
 
-    volumes:
-      - ./wordpress/gimp/:/gimp
-      - ./wordpress/theme/assets/img/:/gimp/dist/
+  npm:
+
+  wp-restore:
