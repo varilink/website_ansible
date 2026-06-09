@@ -1,17 +1,13 @@
-wordpress_sites:
+wp_sites:
 
-  - subdomain: newopera
-    version: "6.2"
-    reverse_proxy_pass_port: 8082
-
-  - subdomain: sienna
+  sienna:
     version: "6.2"
     reverse_proxy_pass_port: 8083
 
-  - subdomain: staging
+  staging:
     version: "6.2"
     reverse_proxy_pass_port: 8084
 
-  - subdomain: test
+  test:
     version: "6.2"
     reverse_proxy_pass_port: 8085
