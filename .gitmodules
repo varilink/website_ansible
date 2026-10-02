@@ -10,8 +10,8 @@
 	path = tools/gimp
 	url = git@github.com:varilink/tools_gimp.git
 
-[submodule "tools/npm"]
-	path = tools/npm
+[submodule "tools/node"]
+	path = tools/node
 	url = git@github.com:varilink/tools_npm.git
 
 [submodule "tools/wordpress-restore"]
