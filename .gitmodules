@@ -6,6 +6,10 @@
 	path = roles
 	url = git@github.com:varilink/libraries_ansible-roles.git
 
+[submodule "tools/ansible"]
+	path = tools/ansible
+	url = git@github.com:varilink/tools_ansible.git
+
 [submodule "tools/gimp"]
 	path = tools/gimp
 	url = git@github.com:varilink/tools_gimp.git
